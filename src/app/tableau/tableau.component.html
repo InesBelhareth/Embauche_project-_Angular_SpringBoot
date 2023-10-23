@@ -1,0 +1,33 @@
+
+
+<table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+  <thead>
+    <tr>
+      <th class="th-sm">Nom
+
+      </th>
+      <th class="th-sm">Prenom
+
+      </th>
+      <th class="th-sm">Post
+
+      </th>
+      <th class="th-sm">Salaire
+
+      </th>
+      <th class="th-sm">Email
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let element of listePersonnel">
+      <td>{{element.nom}}</td>
+      <td>{{element.prenom}}</td>
+      <td>{{element.post}}</td>
+      <td>{{element.salaire}}</td>
+      <td>{{element.email}}</td>
+    </tr>
+  </tbody>
+  
+</table>
+<script src="assets/js/table.js"></script>

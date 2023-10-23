@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-md-6">
+        <app-list (candidatSelectedToCv)="envoyercandidat($event)" [listcandidatfromcv]="listcandidat"></app-list>    
+    </div>
+    <div class="col-md-6">
+        
+         <app-detail [candidatParCv]="candidatselecCv"></app-detail>
+    </div>
+</div>
+<app-embaucher  ></app-embaucher>
